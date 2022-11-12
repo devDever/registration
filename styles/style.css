@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, html{
+    font-family: sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper div{
+    width: 100%;
+}
+
+.wrapper .links{
+    background-image: url('../img/bg-vector.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.wrapper .links .links-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper .links .links-block a{
+    background-color: #fff;
+    width: 380px;
+    display: flex;
+
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 15px;
+    margin-top: 35px;
+    padding-left: 104px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.wrapper .links .links-block a img{
+    margin-right: 15px;
+    max-width: 30px;
+}
